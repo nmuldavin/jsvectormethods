@@ -13,7 +13,7 @@ arr.norm(); // 3.74
 ```
 To add method to all Arrays, use `addVectorMethods(Array.prototype)`. Vector methods do not conflict with any standard Array methods. If you do not want to mess with the built in Array prototype, `vector.js` provides a `Vector` psuedoclass which inherits all vector functionality and the added vector methods.
 
-Vector methods includes all usual vector operations including the dot product, scalar multiplication, norm, distance to another vector, and cross product. You can also define your own element-wise operation between corresponding elements using `elementWise`:
+Vector methods includes all usual vector operations including the dot product, scalar multiplication, norm, distance to another vector, and cross product among others. You can also define your own element-wise operation between corresponding elements using `elementWise`:
 
 ```javascript
 var operation = function(a, b) {
