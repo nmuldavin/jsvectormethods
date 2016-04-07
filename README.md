@@ -1,6 +1,7 @@
 # vector-methods
 
-Provides a useful set of vector methods to be added to JavaScript Arrays. 
+Provides a useful set of vector methods to be added to JavaScript Arrays. Unlike most JavaScript vector libraries, these methods
+may be used for arrays of arbitrary dimension.
 
 ## Use
 
